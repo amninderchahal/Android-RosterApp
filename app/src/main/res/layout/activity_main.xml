@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.amninder.therosterapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:paddingLeft="87dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp">
+
+        <TextView
+            android:text="Name:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:id="@+id/forName"
+            android:textSize="16sp"
+            android:layout_alignBaseline="@+id/name"
+            android:layout_alignBottom="@+id/name"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name.."
+            android:ems="10"
+            android:id="@+id/name"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/forName"
+            android:layout_marginStart="10dp"
+            android:paddingLeft="8dp"
+            android:layout_width="130dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:paddingLeft="62dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp">
+
+        <TextView
+            android:text="Eye Color:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forEyeColor"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/eyeColorSpinner"
+            android:layout_alignStart="@+id/forPantSize"
+            android:layout_marginTop="0dp" />
+
+        <Spinner
+            android:layout_height="wrap_content"
+            android:id="@+id/eyeColorSpinner"
+            android:layout_below="@+id/name"
+            android:layout_alignStart="@+id/name"
+            android:paddingLeft="10dp"
+            android:layout_width="160dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="70dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp">
+
+        <TextView
+            android:text="Birthday:"
+            android:layout_width="wrap_content"
+            android:id="@+id/forBirthday"
+            android:textSize="16sp"
+            android:layout_below="@+id/forEyeColor"
+            android:layout_alignEnd="@+id/forEyeColor"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBirthday"
+            android:textSize="16sp"
+            android:layout_alignBaseline="@+id/forBirthday"
+            android:layout_alignBottom="@+id/forBirthday"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="12dp" />
+
+        <Button
+            android:text="Pick Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateButton"
+            android:layout_alignBaseline="@+id/txtBirthday"
+            android:layout_alignBottom="@+id/txtBirthday"
+            android:layout_alignEnd="@+id/txtShoeSize"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="140dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <CheckBox
+            android:text="Are we going steady"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:layout_below="@+id/dateButton"
+            android:layout_alignStart="@+id/txtBirthday" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="98dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:text="Size:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forRadioGroup"
+            android:textSize="16sp"
+            android:layout_below="@+id/checkBox"
+            android:layout_alignEnd="@+id/forBirthday"
+            android:paddingTop="5dp" />
+
+        <RadioGroup
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox"
+            android:layout_alignStart="@+id/checkBox"
+            android:layout_marginTop="0dp"
+            android:id="@+id/radioGroup"
+            android:paddingLeft="10dp">
+
+            <RadioButton
+                android:text="XS"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/saveXs"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="S"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/saveS"
+                android:layout_weight="1"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-30dp" />
+
+            <RadioButton
+                android:text="M"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/saveM"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="L"
+                android:layout_width="60dp"
+                android:id="@+id/saveL"
+                android:layout_weight="1"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-30dp"
+                android:layout_height="30dp" />
+
+            <RadioButton
+                android:text="XL"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/saveXL"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="XXL"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/saveXXL"
+                android:layout_weight="1"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-30dp" />
+        </RadioGroup>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="62dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:text="Pant Size:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forPantSize"
+            android:textSize="16sp"
+            android:layout_above="@+id/forShirtSize"
+            android:layout_toStartOf="@+id/radioGroup" />
+
+        <SeekBar
+            android:layout_height="wrap_content"
+            android:id="@+id/pantSize"
+            android:max="16"
+            android:layout_above="@+id/forShirtSize"
+            android:layout_toEndOf="@+id/forShirtSize"
+            android:paddingStart="25dp"
+            android:layout_width="130dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:text="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPantSize"
+            android:layout_marginRight="10dp"
+            android:layout_width="40dp"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/forPantSize"
+            android:layout_toEndOf="@+id/radioGroup" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:paddingLeft="61dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:text="Shirt Size:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forShirtSize"
+            android:textSize="16sp"
+            android:layout_above="@+id/shoeSize"
+            android:layout_toStartOf="@+id/shirtSize" />
+        <SeekBar
+            android:layout_height="wrap_content"
+            android:id="@+id/shirtSize"
+            android:max="12"
+            android:layout_above="@+id/shoeSize"
+            android:layout_toEndOf="@+id/forShoeSize"
+            android:paddingEnd="20dp"
+            android:paddingStart="25dp"
+            android:layout_width="130dp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:text="4"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtShirtSize"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/shirtSize"
+            android:layout_alignStart="@+id/txtShoeSize" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="58dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:text="Shoe Size:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forShoeSize"
+            android:textSize="16sp"
+            android:layout_above="@+id/saveButton"
+            android:layout_alignStart="@+id/forPantSize" />
+        <SeekBar
+            android:layout_height="wrap_content"
+            android:max="8"
+            android:id="@+id/shoeSize"
+            android:layout_alignTop="@+id/forShoeSize"
+            android:layout_toEndOf="@+id/forShoeSize"
+            android:layout_width="130dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="25dp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:text="4"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtShoeSize"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/shoeSize"
+            android:layout_toEndOf="@+id/radioGroup" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="120dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="10dp">
+        <Button
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:id="@+id/saveButton"
+            android:layout_marginBottom="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/forRadioGroup" />
+     </LinearLayout>
+
+    </LinearLayout>

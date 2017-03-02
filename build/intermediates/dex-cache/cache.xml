@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_408989eba97cfcdc06187f4549b43128e66a4d8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_88a20b017b13795a1b0e5b78605c04e0889e37ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_1862e6f06607d16ff7f7e71165d9aaf8026a5649/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0abb86b78c4fae5d0ad0d5faf6cab94a78e0f65a">
+        <dex dex="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5548740e240d240724d94b5ad1dd524e41442d32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_1c0ed6b8a338927cfd9d5d47f0b76ff299d75242/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_48d802bf5bb9b7b59a6445b618999e34388a0ee9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/amninder/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_8af67985f82279a4b2d53363ead8a0b9575e382d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2f6fd5ce792f4fbad4abe065afb92ecb945da77">
+        <dex dex="/home/amninder/AndroidStudioProjects/TheRosterApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ea607b164e681ea2e3891d7e2a409512b62bc8fe/classes.dex" />
+    </item>
+
+</items>
